@@ -1,23 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>A Travelholic Platform</title>
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/64f0e8001e.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
     <header>
         <div class="banner">
-            <h2 class="banner-title">Explore Your Travel</h2>
-            <p class="banner-description">Dolor sit amet consectetur. Nullam suspendisse vitae ultricies dolor adipiscing. In et odio enim ac quis sapien urna eu phasellus.</p>
+            <div class="banner-content">
+                <h2 class="banner-title">Explore Your Travel</h2>
+                <p class="banner-description">One can find oneself while traveling.We are offering you a platform to help to find your own self.
+                </p>
+            </div>
             <div class="banner-form">
-                <input type="button" value="where go" placeholder="Where go">
-                <button><i class="fa-thin fa-angle-down"></i>when </button>
-                <input type="button" value="where go" placeholder="Where go">
-                <input type="button" value="where go" placeholder="Where go">
+            <label for="Where go">
+                <input type="text" value="Where go" id="Where go" placeholder="Where go">
+            </label>
+            <label for="When">
+             <div class="input-container">
+                <input type="text" value="When" id="When" placeholder="When">
+                <i class="fa-solid fa-angle-down"></i>
+            </div>
+             </label>
+            <label for="Select">
+             <div class="input-container">
+                <input type="text" value="Select Type" id="Select" placeholder="Select Type">
+                <i class="fa-solid fa-angle-down"></i>
+            </div>
+             </label>
+             <label for="">
+                <button class="btn-primary"><i class="fa-solid fa-magnifying-glass"></i>Find Now</button>
+            </label>
             </div>
         </div>
+        
     </header>
 </body>
+
 </html>
