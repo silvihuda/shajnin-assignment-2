@@ -1,6 +1,7 @@
 /* shared styles */
 * {
     font-family: 'Mulish', sans-serif;
+    font-family: 'Inter', sans-serif;
 }
 
 body {
@@ -34,8 +35,6 @@ body {
     margin-left: 200px;
     margin-right: 200px;
 }
-
-/* navigation bar styles */
 .nav-container {
     min-height: 20px;
     display: flex;
@@ -46,6 +45,19 @@ body {
 .nav-container img {
     width: 50px;
 }
+.nav-title{
+    font-size: 2.3rem;
+    font-weight: 800;
+}
+.travel{
+    color: #131318;
+} 
+.holic{
+    color: #FF5400;
+}
+
+/* navigation bar styles */
+
 
 /* banner styles */
 .banner {
@@ -297,19 +309,63 @@ img {
     margin-top: 0;
     position: relative;
     bottom: 190px;
-    transform:translate(240px)  rotate(-40deg);
+    transform: translate(240px) rotate(-40deg);
 }
-.news-letter-discount h1{
+
+.news-letter-discount h1 {
     font-size: 1.5rem;
     margin: 4px 0;
     font-weight: 400;
 }
-.news-letter-discount p{
+
+.news-letter-discount p {
     font-size: 2rem;
     font-weight: 800;
     margin-top: 0;
 }
 
+/* footer styles */
+footer {
+    margin-left: 0;
+    margin-right: 0;
+    background: rgba(19, 19, 24, 0.05);
+}
+
+.social-links img {
+    width: 50px;
+    height: 30px;
+}
+
+.copyright {
+    color: #131318;
+}
+
+.footer-description {
+    color: #5A5A5D;
+    text-align: center;
+    font-weight: 400;
+    font-size: 1rem;
+    margin: 0 300px 30px;
+}
+.footer-heading{
+    margin: 100px 400px 5px 350px;
+    padding-top: 80px;
+}
+.social-links{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin: 0 500px 50px 400px;
+}
+footer hr{
+    margin: 0 200px;
+}
+.copyright{
+    color: #131318;
+    font-weight: 300;
+    margin: 50px 400px 0;
+    padding-bottom: 110px;
+}
 
 
 
