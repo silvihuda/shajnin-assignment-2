@@ -35,6 +35,18 @@ body {
     margin-right: 200px;
 }
 
+/* navigation bar styles */
+.nav-container {
+    min-height: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.nav-container img {
+    width: 50px;
+}
+
 /* banner styles */
 .banner {
     background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.8)0%, rgba(19, 19, 24, 0)100%),
@@ -106,27 +118,31 @@ body {
 .btn-primary i {
     margin-right: 2px;
 }
+
 /* popular tour section styles */
-.tours-description-container{
+.tours-description-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 24px;
 
 }
-.tours-title{
+
+.tours-title {
     color: #131318;
     font-size: 2.5rem;
     font-weight: 800;
     margin-top: 80px;
     margin-bottom: 20px;
 }
+
 .tours-description {
     color: rgba(19, 19, 24, 0.70);
     margin-top: 0;
     margin-bottom: 20px;
 }
-.tours-description li{
+
+.tours-description li {
     margin: 0 24px;
 }
 
@@ -209,11 +225,97 @@ img {
     margin-top: 0;
     margin-bottom: 10px;
 }
-.card-description{
+
+.card-description {
     color: #5A5A5D;
     margin-top: 0;
     margin-bottom: 30px;
 }
+
+/* newsletter styles */
+.news-form-part {
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+}
+
+.news-container {
+    display: flex;
+    justify-content: space-between;
+    height: 70vh;
+    gap: 24px;
+}
+
+.news-title {
+    color: #131318;
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin: 40px 300px 10px 40px;
+}
+
+.news-text {
+    color: #5A5A5D;
+    margin-top: 0;
+    margin-left: 40px;
+    margin-right: 100px;
+}
+
+.news-form-part hr {
+    margin: 24px 40px;
+}
+
+.news-form input[type="text"],
+.news-form input[type="email"] {
+    display: block;
+    margin: 24px 40px;
+    width: 75%;
+    padding: 16px;
+    border-radius: 8px;
+    border: 0;
+    background: rgba(19, 19, 24, 0.05);
+    color: rgba(19, 19, 24, 0.30);
+}
+
+.news-form input[type="button"] {
+    border-radius: 8px;
+    border: 0;
+    background: #FF5400;
+    color: #FFF;
+    padding: 16px;
+    text-align: center;
+    display: block;
+    margin: 24px 40px;
+    width: 82%;
+}
+
+.news-letter-discount {
+    border-radius: 16px;
+    background: #FF5400;
+    color: #FFF;
+    width: 300px;
+    height: 100px;
+    text-align: center;
+    margin-top: 0;
+    position: relative;
+    bottom: 190px;
+    transform:translate(240px)  rotate(-40deg);
+}
+.news-letter-discount h1{
+    font-size: 1.5rem;
+    margin: 4px 0;
+    font-weight: 400;
+}
+.news-letter-discount p{
+    font-size: 2rem;
+    font-weight: 800;
+    margin-top: 0;
+}
+
+
+
+
+
+
+
 
 
 
