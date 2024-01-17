@@ -57,7 +57,7 @@ body {
 }
 
 /* navigation bar styles */
-li {
+nav li {
     list-style: none;
     margin-right: 30px;
 }
@@ -73,7 +73,6 @@ nav{
 }
 nav>ul {
     display: flex;
-    /* margin-left: 40px; */
 }
 nav li a{
     text-align: center;
@@ -395,30 +394,32 @@ footer hr{
 
 
 
-
-
-
-
-
-
 /* responsive styles */
-/* small devices */
+
+/* mobile devices */
 @media screen and (max-width:600px) {
-    .banner-form {
-        flex-direction: column;
-        text-align: center;
+    body{
+        margin-left: 10px;
+    margin-right: 10px;
+} 
+    .section-description{
+        margin-left: 0;
+        margin-right: 0;
     }
-
-    .banner {
+    .section-title{
+        font-size: 16px;
+        margin-top: 20px;
+    }
+    .row{
         height: auto;
-        width: 100%;
-        margin: 0;
     }
-
-    .banner-title {
-        text-align: center;
-        padding: 30px 50px;
-        font-size: 1.4rem;
+    .tours-title{
+        margin-top: 20px;
     }
-
+    .tours-description-container, .row,.card-container{
+        flex-direction: column;
+    }
+    .news-container,nav,footer,.banner{
+        display: none;
+    }
 }
